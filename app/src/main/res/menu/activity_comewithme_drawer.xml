@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_create"
+            android:title="Create Event" />
+        <item
+            android:id="@+id/nav_upcoming"
+            android:title="Upcoming Event" />
+        <item
+            android:id="@+id/nav_pend"
+            android:title="Pending Event" />
+        <item
+            android:id="@+id/nav_friend"
+            android:title="Friends List" />
+    </group>
+
+    <item
+        android:id="@+id/nav_sign_out"
+        android:title="Sign out" />
+</menu>
